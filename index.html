@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+
+
+    <div class="smart-card shadow-sm">
+        <div class="row border-bottom pb-2">
+            <div class="col-md-2 text-center">
+                <img src="./images/download.png" class="img-fluid">
+            </div>
+            <div class="col-md-10 text-center">
+                <small class="fw-bold">গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</small> <br>
+                <small class="text-success">Government of the People's Republic of Bangladesh  </small> <br>
+                <small>জাতীয় পরিচয়পত্র <span class="text-danger">National ID Card </span> </small>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="./images/profile.png" class="img-fluid my-3">
+                <img src="./images/sig.png" class="img-fluid">
+            </div>
+            <div class="col-md-5 pt-3"> 
+                <div class="form-group">
+                    <small>  Name </small> <br>
+                    <small class="fw-bold">Mashrafi bin mortuza</small>
+                </div>
+                <div class="form-group">
+                    <small>  Father </small> <br>
+                    <small class="fw-bold"> Sm mortuza</small>
+                </div>
+                <div class="form-group">
+                    <small>  Mother </small> <br>
+                    <small class="fw-bold">Ms mortuza</small>
+                </div>
+               
+                <div class="form-group">
+                    <small>Address: <br> <span class="fw-bold">125 shah abdul karim road</span> </small> 
+                </div>
+                <div class="form-group mt-1">
+                    <small>  Date of birth:<span class="fw-bold"> 08-12-1993 </span></small> 
+                </div>
+                <div class="form-group">
+                    <small> NID no: <span class="fw-bold"> 125 1245 562265</span> </small> 
+                </div>
+            </div>
+            <div class="col-md-3 d-flex align-items-center">
+                <img src="./images/chip.png"  class="img-fluid  data-tilt" data-tilt>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/tilt.jquery.min.js"></script> 
+
+    <script >
+        $('.js-tilt').tilt({
+            scale: 1.1
+        })
+    </script>
+
+</body>
+
+</html>
